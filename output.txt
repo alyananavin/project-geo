@@ -1,0 +1,24 @@
+PHPUnit 9.6.8 by Sebastian Bergmann and contributors.
+
+E                                                                   1 / 1 (100%)
+
+Time: 00:00.089, Memory: 14.00 MB
+
+There was 1 error:
+
+1) Tests\Feature\Http\Controllers\UsersControllerTest::testGetUserByIdSuccess
+Error: Call to a member function connection() on null
+
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1815
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1781
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1573
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1492
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1528
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:327
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:235
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:325
+C:\Users\Dave\project-geo\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:279
+C:\Users\Dave\project-geo\tests\Feature\Http\Controller\UsersControllerTest.php:14
+
+ERRORS!
+Tests: 1, Assertions: 0, Errors: 1.
